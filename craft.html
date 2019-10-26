@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>IND Modern Fantasy Minecraft Page</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/minecraft.css" />
+  <link rel="icon" type="image/x-icon" href="https://ntouind.tw/ind/favicon-red-32.ico">
+  <script type="text/javascript" src="js/lib/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/util.js"></script>
+  <script type="text/javascript" src="js/rect.js"></script>
+  <script type="text/javascript" src="js/bitmap.js"></script>
+  <script type="text/javascript" src="js/item_manager.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <br>
+  <div class="crafting-area" ondrop="ItemManager.on_drag_drop(event)" ondragover="ItemManager.on_drag_over(event)" ondragstart="ItemManager.on_craft_drag_start(event)">
+    <div class="crafting clearfix">
+      <div class="recipe">
+        <h4>Crafting</h4>
+        <div id="crafting-table">
+          <div><span class="grid" id="grid-7">
+            <img src="" alt class="item-img" draggable="true" ondrop="ItemManager.on_drag_drop(event)" ondragover="ItemManager.on_drag_over(event)">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+          
+          <div><span class="grid" id="grid-8">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-9">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-4">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-5">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-6">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-1">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-2">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+
+          <div><span class="grid" id="grid-3">
+            <img src="" alt class="item-img" draggable="true">
+            <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+              <div class="mc-tooltip-title">
+                <div class="mc-tooltip-description"></div>
+              </div>
+            </div>
+          </span></div>
+        </div>
+      </div> <!-- recipe -->
+      <div class="arrow"></div>
+      <div class="crafting-table-output">
+        <div><span class="grid-large" id="grid-result">
+          <img src="" alt class="item-img" draggable="true">
+          <div class="mc-tooltip" style="display: none; top: 0px; left: 0px;">
+            <div class="mc-tooltip-title"></div>
+            <div class="mc-tooltip-description"></div>
+          </div>
+        </span></div>
+      </div>
+    </div>
+
+    <div>
+      <input type="button" value="Generate Recipe">
+    </div>
+  </div>
+
+  
+  <div class="equipment-area">
+    <h4 class="itembox-caption">Equipments</h4>
+    <p class="search-box">
+      <span class="search-text">Search:</span>
+      <input class="input-text" type="text" ondragover="preventDrag(event)" ondrop="preventDrag(event)">
+    </p>
+    <div class="itembox" id="equipment_box">
+    </div>
+  </div>
+  
+  <div class="ingrident-area">
+    <h4 class="itembox-caption">Items</h4>
+    <p class="search-box">
+      <span class="search-text">Search:</span>
+      <input class="input-text" type="text"  ondragover="preventDrag(event)" ondrop="preventDrag(event)">
+    </p>
+    <div class="itembox" id="ingrident_box">
+      
+    </div>
+  </div>
+  
+  <div class="mc-tooltip-popup" id="tooltip-popup">
+    <div class="mc-tooltip-title-popup" id="tooltip-head"></div>
+    <div class="mc-tooltip-item-mid" id="tooltip-mid"></div>
+    <div class="mc-tooltip-description-popup" id="tooltip-body"></div>
+  </div>
+  
+  
+</body>
+</html>

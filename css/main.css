@@ -1,0 +1,14 @@
+@font-face{
+  font-family: 'minecraft';
+  src: url('../fonts/minecraft.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'NotoSansCJKtc-Regular';
+  src: url('fonts/NotoSansCJKtc-Regular.otf') format('opentype');
+}
+
+@font-face{
+  font-family: 'fontawesome';
+  src: url('fonts/FontAwesome.otf') format('opentype');
+}

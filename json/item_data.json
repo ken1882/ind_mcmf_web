@@ -1,0 +1,144 @@
+[
+  {
+    "id": 203,
+    "name": "Graphite Chunk",
+    "desc": "Can be obtained via mine the ore",
+    "mid": "mw:graphitechunk"
+  },
+  {
+    "id": 207,
+    "name": "Sulfur Dust",
+    "desc": "Can be obtained via mine the ore",
+    "mid": "mw:sulfurdust"
+  },
+  {
+    "id": 208,
+    "name": "Steel Dust",
+    "mid": "mw:steeldust"
+  },
+  {
+    "id": 210,
+    "name": "Gunmetal Ingot",
+    "mid": "mw:gunmetalingot"
+  },
+  {
+    "id": 211,
+    "name": "Gunmetal Plate",
+    "mid": "mw:gunmetalplate"
+  },
+  {
+    "id": 212,
+    "name": "Gunmetal Compostie",
+    "mid": "mw:gunmetalcomposite"
+  },
+  {
+    "id": 213,
+    "name": "Carbon Composite",
+    "mid": "mw:carboncomposite"
+  },
+  {
+    "id": 214,
+    "name": "Carbon Fiber",
+    "mid": "mw:carbonfiber"
+  },
+  {
+    "id": 215,
+    "name": "Synthetic Polymer Composite",
+    "mid": "mw:syntheticpolymercomposite"
+  },
+  {
+    "id": 216,
+    "name": "Sythetic Plastic",
+    "mid": "mw:sytheticplastic"
+  },
+  {
+    "id": 217,
+    "name": "Plastic Plate",
+    "mid": "mw:plasticplate"
+  },
+  {
+    "id": 226,
+    "name": "Copper Ingot",
+    "mid": "thermalfoundation:material:128"
+  },
+  {
+    "id": 227,
+    "name": "Tin Ingot",
+    "mid": "thermalfoundation:material:129"
+  },
+  {
+    "id": 228,
+    "name": "Silver Ingot",
+    "mid": "thermalfoundation:material:130"
+  },
+  {
+    "id": 229,
+    "name": "Lead Ingot",
+    "mid": "thermalfoundation:material:131"
+  },
+  {
+    "id": 230,
+    "name": "Aluminum Ingot",
+    "mid": "thermalfoundation:material:132"
+  },
+  {
+    "id": 231,
+    "name": "Nickel Ingot",
+    "mid": "thermalfoundation:material:133"
+  },
+  {
+    "id": 232,
+    "name": "Platinum Ingot",
+    "mid": "thermalfoundation:material:134"
+  },
+  {
+    "id": 233,
+    "name": "Iridium Ingot",
+    "mid": "thermalfoundation:material:135"
+  },
+  {
+    "id": 234,
+    "name": "Mana Infused Ingot",
+    "mid": "thermalfoundation:material:136"
+  },
+  {
+    "id": 235,
+    "name": "Steel Ingot",
+    "mid": "thermalfoundation:material:160"
+  },
+  {
+    "id": 236,
+    "name": "Electrum Ingot",
+    "mid": "thermalfoundation:material:161"
+  },
+  {
+    "id": 237,
+    "name": "Invar Ingot",
+    "mid": "thermalfoundation:material:162"
+  },
+  {
+    "id": 238,
+    "name": "Bronze Ingot",
+    "mid": "thermalfoundation:material:163"
+  },
+  {
+    "id": 239,
+    "name": "Constantan Ingot",
+    "mid": "thermalfoundation:material:164"
+  },
+  {
+    "id": 240,
+    "name": "Singalum Ingot",
+    "mid": "thermalfoundation:material:165"
+  },
+  {
+    "id": 241,
+    "name": "Lumium Ingot",
+    "mid": "thermalfoundation:material:166"
+  },
+  {
+    "id": 242,
+    "name": "Enderium Ingot",
+    "mid": "thermalfoundation:material:167"
+  }
+]

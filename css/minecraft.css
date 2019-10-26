@@ -1,0 +1,301 @@
+.crafting-area, .itembox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 4px;
+  background: #C6C6C6;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.itembox{
+  max-height: 200px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.itembox::-webkit-scrollbar {
+  width: auto;
+}
+
+.itembox::-webkit-scrollbar-track {
+  background-color: #8B8B8B;
+}
+
+.itembox::-webkit-scrollbar-thumb {
+  height: 10px;
+  background-color: #C6C6C6;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.search-box {
+  display: flex;
+  flex: 0 0 100%;
+  margin-bottom: 5px;
+  overflow-x: auto;
+}
+
+.search-box input {
+  flex: 2;
+  margin-left: 10px;
+}
+
+.crafting {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.crafting-table {
+  background: #C6C6C6;
+  text-align: left !important;
+  margin-left: 2px;
+  line-height: 42px;
+}
+
+.grid, .grid-large, .grid-furnace {
+  position: relative;
+  float: left;
+  display: block;
+  text-align: center !important;
+  background-color: #8B8B8B;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+  vertical-align: middle;
+}
+
+.grid-large img {
+  z-index: -1;
+  margin-top: 8px;
+}
+
+.grid, .grid-furnace {
+  width: 36px;
+  height: 36px;
+}
+
+.grid:hover, .grid-large:hover, .grid-furnace:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.grid-large {
+  width: 48px;
+  height: 48px;
+}
+
+.grid-furnace {
+  margin-left: 50px;
+}
+
+.grid img, .grid-large img, .grid-furnace img {
+  cursor: move;
+}
+
+.crafting .recipe {
+  float: left;
+  width: 120px;
+}
+
+.crafting .arrow {
+  width: 32px;
+  height: 27px;
+  margin: 105px 25px 0 15px;
+  float: left;
+  background: url(../assets/arrow.png);
+}
+
+.crafting .flame {
+  width: 32px;
+  height: 32px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+  float: left;
+  background: url(../assets/flame.png);
+}
+
+.crafting-table-output {
+  float: left;
+  padding-top: 95px;
+}
+
+.crafting-table-output-count {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  color: #ffffff;
+  font-family: minecraft;
+  user-select: none;
+}
+
+/* only for small */
+@media screen and (max-device-width: 400px) {
+  .crafting .arrow {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+.recipe > h6 {
+  font-family: minecraft;
+}
+
+.nav-tabs {
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+}
+.nav-tabs>li {
+  float: none;
+}
+
+.item-img {
+  width: 32px !important;
+  height: 32px !important;
+  image-rendering: auto;
+}
+
+.equipment-area{
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 10px;
+  width: 47%;
+  background: #C6C6C6;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.ingrident-area{
+  display: flex;
+  float: right;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 10px;
+  width: 47%;
+  background: #C6C6C6;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+}
+
+.itembox-caption{
+  list-style-type: none;
+  padding: 0px;
+  margin: auto;
+}
+
+.search-text{
+  padding-top: 2px;
+}
+
+.container{
+  width: 36px;
+  height: 40px;
+  position: relative;
+  overflow-y: visible;
+  padding-left: 4px;
+  display: inline-block;
+}
+
+.input-text{
+  background: #C6C6C6;
+  border: 2px solid #373737;
+  border-right-color: #FFF;
+  border-bottom-color: #FFF;
+  font-family: minecraft;
+  color: #373737;
+  padding-inline-start: 2px;
+}
+
+.mc-tooltip{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  color: #FFF;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* padding: 6px; */
+  font-family: Minecraft;
+  text-shadow: 2px 2px 0 #3F3F3F;
+  line-height: 20px;
+  overflow-y: visible;
+
+  width: inherit;
+  height: inherit;
+  z-index: 99;
+}
+
+.mc-tooltip .mc-tooltip-title{
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  width: 240px;
+  overflow-y: visible;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+
+.mc-tooltip:hover .mc-tooltip-title{
+  z-index: 999;
+  overflow-y: visible;
+}
+
+.mc-tooltip-description{
+  text-align: left;
+  font-size: 80%;
+  z-index: 999;
+}
+
+.mc-tooltip:hover .mc-tooltip-description{
+  overflow-y: visible;
+}
+
+.mc-tooltip-popup {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 50px;
+  left: 0;
+  color: #FFF;
+  padding-left: 4px;
+  padding-top: 4px;
+  font-family: Minecraft;
+  text-shadow: 2px 2px 0 #3F3F3F;
+  line-height: 16px;
+  text-align: left;
+  
+  width: 240px;
+  z-index: 99;
+}
+
+.mc-tooltip-popup .mc-tooltip-title-popup{
+  text-align: center;
+}
+
+.mc-tooltip-item-mid{
+  font-size: 70%;
+  color: #a7a7a7;
+  text-align: center;
+}
+
+.mc-tooltip-description-popup{
+  font-size: 80%;
+  z-index: 999;
+}
+
+.item-attribute{
+  color: yellow;
+}
