@@ -15,15 +15,22 @@
     right: 15px;
     top: 10px;
   }
-  .main-nav-outer.responsive .container .main-nav li {
+	
+	.main-nav-outer.responsive .container .main-nav li {
     float: none;
     display: block;
     text-align: left;
 	}
+	
 	.main-nav-outer.responsive .container .main-nav .small-logo {
     display: none;
 	}
+	
 	.main-nav-outer {
 		position: relative;
+	}
+
+	#topicon {
+		display: inline-block;
 	}
 }
