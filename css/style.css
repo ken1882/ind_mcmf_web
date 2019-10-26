@@ -43,21 +43,6 @@ img{ max-width:100%;}
 
 a, a:hover, a:active{ outline:0px !important}
 
-@font-face{
-  font-family: 'minecraft';
-  src: url('../fonts/minecraft.woff') format('woff');
-}
-
-@font-face{
-  font-family: 'NotoSansCJKtc-Regular';
-  src: url('fonts/NotoSansCJKtc-Regular.otf') format('opentype');
-}
-
-@font-face{
-  font-family: 'fontawesome';
-  src: url('fonts/FontAwesome.otf') format('opentype');
-}
-
 
 /* Primary Styles
 ---------------------------------*/
@@ -118,7 +103,7 @@ p{
 	font-family: 'minecraft';
 	font-size:50px;
 	font-weight:400;
-	background: linear-gradient(to right, #8c15d6 0%, #9fdae9 100%);
+	background: linear-gradient(to right, #25024d 0%, #6aa6ec 70%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -203,6 +188,7 @@ color: #fff;
 	text-align:center;
 	margin:10px 0 0px;
 	list-style:none;
+	overflow: hidden;
 }
 
 .main-nav li{
@@ -263,6 +249,7 @@ color: #fff;
 	width:42px;
 	height:27px;
 	margin:20px auto;
+	position: relative;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
@@ -282,6 +269,25 @@ color: #fff;
 	max-width: 1140px;
 }
 
+#topicon {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topicon:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
 
 /* Animation Timers
 ---------------------------------*/

@@ -22,9 +22,26 @@
 	<link href="css/animate.css" rel="stylesheet" type="text/css">
 	<link href="css/iframe.css" rel="stylesheet" type="text/css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
+  <script>
+    function responsive_menu(){
+      var menu = document.getElementById("nav-box");
+      if (menu.className === "main-nav-outer") {
+        menu.className += " responsive";
+      } else {
+        menu.className = "main-nav-outer";
+      }
+    }
+
+    var top_icon = document.getElementById("topicon");
+    function backToTop(){
+      document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+  </script>
 </head>
 <body>
-  <nav class="main-nav-outer" id="test">
+  <button onclick="backToTop()" id="topicon" title="Go to top">Top</button>
+  <nav class="main-nav-outer" id="nav-box">
 		<!--main-nav-start-->
 		<div class="container">
 			<ul class="main-nav">
@@ -36,12 +53,15 @@
         <li><a href="#issues">Known issues</a></li>
         <li><a href="#modpacklink">Download ModPack</a></li>
       </ul>
-			<a class="res-nav_click" id="res-nav_bar" href="#"><i class="fa fa-bars"></i></a>
+			<a class="res-nav_click" id="res-nav_bar" onclick="responsive_menu()">
+          <i class="fa fa-bars"></i>
+      </a>
 		</div>
 	</nav>
   <!--main-nav-end-->
-  <section class="main-section" id="padding"></section>
-  <section class="main-section" id="home">
+  <!-- <section class="main-section" id="header"></section> -->
+  <br><br>
+  <section class="main-section" id="header">
     <div class="logo">
       Modern Fantasy
     </div>
