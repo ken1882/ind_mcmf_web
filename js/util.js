@@ -57,6 +57,22 @@ function getDomainURL(){
   return location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '');
 }
 /**----------------------------------------------------------------------------
+ * > Get root URL of current page
+ * @function
+ * @global
+ * @returns {string} - Domain URL
+ */
+function getRootURL(){
+  seg = location.href.split("/")
+  ret = location.protocol + "//"
+  for(var i=2;i<seg.length;++i){
+    if(!seg[i]){continue;}
+    if(seg[i][0] == '#'){continue;}
+    ret += seg[i] + "/"
+  }
+  return ret;
+}
+/**----------------------------------------------------------------------------
  * > Log debug information
  * @function
  * @global

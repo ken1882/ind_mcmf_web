@@ -40,7 +40,9 @@
     document.documentElement.scrollTop = 0;
     }
 
-    window.domain = getDomainURL();
+    window.addEventListener("load", ()=>{
+      $("#keybind-link").attr('href', `${getRootURL()}keys.html`);
+    },false);
   </script>
 </head>
 <body>
@@ -122,7 +124,7 @@
   <section class="main-section" id="keybindings">
       <!--keybindings-section-start-->
       <h2>Keybinds</h2>
-      <a href="/keys.html" id="keybind-link" target="_blank">Open in new tab</a>
+      <a href="#" id="keybind-link" target="_blank">Open in new tab</a>
   </section>
   <!--keybindings-section-end-->
 
