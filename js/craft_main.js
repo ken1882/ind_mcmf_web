@@ -104,7 +104,7 @@ function json_load_ok(){
 }
 
 function load_jsons(){
-  window.json_loading_cnt = 3;
+  window.json_loading_cnt = 4;
   processJSON("json/equipment_data.json", (dat)=>{
     window.equipment_data = JSON.parse(dat);  
     ItemManager.create_equpiments();
