@@ -336,7 +336,7 @@ color: #fff;
 	-webkit-animation-delay: 1.2s; 
 }
 
-.changelog {
+#changelog {
 	overflow: scroll;
 	text-align: left;
 	width: 95%;
@@ -353,15 +353,15 @@ color: #fff;
 	max-height: 250px;
 }
 
-.changelog::-webkit-scrollbar {
+#changelog::-webkit-scrollbar {
   width: auto;
 }
 
-.changelog::-webkit-scrollbar-track {
+#changelog::-webkit-scrollbar-track {
   background-color: #8B8B8B;
 }
 
-.changelog::-webkit-scrollbar-thumb {
+#changelog::-webkit-scrollbar-thumb {
   height: 10px;
   background-color: #C6C6C6;
   border: 2px solid #373737;
