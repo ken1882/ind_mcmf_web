@@ -22,5 +22,9 @@
   {
     "version": "1.2.3",
     "desc": "Add progressive boss mod to make vanilla boss harder"
+  },
+  {
+    "version": "1.2.4",
+    "desc": "Removed body temperature since it makes game nearly unplayable"
   }
 ]
