@@ -26,5 +26,9 @@
   {
     "version": "1.2.4",
     "desc": "Removed body temperature since it makes game nearly unplayable"
+  },
+  {
+    "version": "1.2.5",
+    "desc": "Lycanite mob rare subspecies no longer display boss hp bar by default and will despawn"
   }
 ]
