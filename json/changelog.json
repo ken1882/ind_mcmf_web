@@ -34,5 +34,9 @@
   {
     "version": "1.2.6",
     "desc": "Lycanite mob event now respect light level, add sulfur dust furnace recipe."
+  },
+  {
+    "version": "1.2.7",
+    "desc": "Disabled AquaCulture's fish weight so it's possible to making automatic crafting system."
   }
 ]
