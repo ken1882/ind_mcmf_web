@@ -38,5 +38,9 @@
   {
     "version": "1.2.7",
     "desc": "Disabled AquaCulture's fish weight so it's possible to making automatic crafting system."
+  },
+  {
+    "version": "1.2.8",
+    "desc": "Mob spawner will spawn much more mobs now (farming possible)"
   }
 ]
