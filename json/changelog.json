@@ -42,5 +42,9 @@
   {
     "version": "1.2.8",
     "desc": "Mob spawner will spawn much more mobs now (farming possible)"
+  },
+  {
+    "version": "1.3.0",
+    "desc": "Add more mods, including modular series, thaum craft series, industrial foregoing, mekanism, elevator, etc."
   }
 ]
