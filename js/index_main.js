@@ -8,6 +8,7 @@ function load_jsons(){
       let ele = document.createElement("li");
       $(ele).text(`${info['version']}: ${info['desc']}`)
       log.append(ele);
+      log.append(document.createElement("br"));
     }
   });
 }
