@@ -298,6 +298,11 @@ color: #fff;
 	max-width: 1140px;
 }
 
+.issue_img {
+	width: 50%;
+	height: 50%;
+}
+
 #topicon {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
