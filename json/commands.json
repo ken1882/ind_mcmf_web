@@ -1,0 +1,34 @@
+[
+  {
+    "command": "job",
+    "usage": "Show your current job and informations"
+  },
+  {
+    "command": "job set <job_name>",
+    "usage": "Set your job to <job_name>, use /job command to see available jobs."
+  },
+  {
+    "command": "balance",
+    "usage": "Show your current balance"
+  },
+  {
+    "command": "bal",
+    "usage": "Abbr. for /balance"
+  },
+  {
+    "command": "job toggle",
+    "usage": "Toggle job notification"
+  },
+  {
+    "command": "pay <player_name> <amount>",
+    "usage": "Pay other player money"
+  },
+  {
+    "command": "shop buy",
+    "usage": "Set the single chest you're currently looking at as your shop"
+  },
+  {
+    "command": "shop stock <amount> <price>",
+    "usage": "Stock your chest shop you're looking at with the item in your hand"
+  }
+]

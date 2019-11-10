@@ -55,12 +55,13 @@
         <!-- <li><a href="#header">Home</a></li> -->
         <li><a href="#rules">Server Rules</a></li>
         <li><a href="#issues">Known issues</a></li>
-        <li><a href="#changelog-header">Change Log</a></li>
+        <li><a href="#infos">System Info</a></li>
         <li class="small-logo"><a href="#header">
           <img src="ind/INDmark2-2-white.png" alt=""></a>
         </li>
+        <li><a href="#changelog-header">Change Log</a></li>
         <li><a href="#modpacklink">Download ModPack</a></li>
-        <li><a href="#keybindings">Keybinds</a></li>
+        <!-- <li><a href="#keybindings">Keybinds</a></li> -->
         <li><a href="#modlist">Mod List</a></li>
       </ul>
 			<a class="res-nav_click" id="res-nav_bar" onclick="responsive_menu()">
@@ -106,11 +107,75 @@
       <ul class="textarea" style="padding-left:8%">
         <!-- <li style="color:red">ImmersiveEngineering's item silo will crash the server if it reached the max capacity, also there's item in its input pipe and anyone in the area left (tile entity unload). Please consider using mekanism's bin storage. Or you'll have to block the input to the silo and extract some of its content before you leaving that chunk/logout (otherwise server will crash!).<br>This has reported to sponge's issue tracker and waiting for fix.</li> -->
         <li>Recurrent Complex's strcture will be broken inside a newly generated village (active sponge bug)</li>
-        <li>If Modern Wafare's guns are held in off-hand, press mouse-right button (aim-down sight) will cause the gun replaced by the item in main-hand</li>
+        <li>If Modern Warfare's guns are held in off-hand, press mouse-right button (aim-down sight) will cause the gun replaced by the item in main-hand</li>
+        <li>Modern Warfare's aim down sight will kinda broken if shader enabled</li>
       </ul>
     </div>
   </section>
   <!--issues-section-end-->
+
+  <section class="main-section" id="infos">
+    <!--issues-section-start-->
+    <div class="container">
+      <h2>System Information</h2>
+      <div>
+        <table>
+          <tr>
+            <th colspan="4">Hardware Recommendation</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Base</th>
+            <th>Advanced</th>
+          </tr>
+          <tr>
+            <th>CPU</th>
+            <td>Intel I5-6400</td>
+            <td>Intel I7-2600</td>
+          </tr>
+          <tr>
+            <th>GPU</th>
+            <td>Nvidia GTX 950</td>
+            <td>Nvidia GTX 1060</td>
+          </tr>
+          <tr>
+            <th>Memory*</th>
+            <td>12G DDR3</td>
+            <td>24G DDR4</td>
+          </tr>
+          <tr>
+            <th>HDD</th>
+            <td colspan="2">500MB+</td>
+          </tr>
+        </table>
+      </div>
+      <p>
+          * Memory: Does not include the amount of OS or other software used<br>
+      </p>
+      <br>
+      <div>
+        Base: Able to play without shader<br>
+        Advanced: Able to play with shader enabled<br>
+      </div>
+    </div>
+  </section>
+  <!--info-section-end-->
+
+  <section class="main-section" id="commands">
+      <!--issues-section-start-->
+      <div class="container">
+        <h2>Command Information</h2>
+        <div>
+          <table id="command_table">
+            <tr>
+              <th>Command</th>
+              <th>Usage</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!--command-section-end-->
 
   <section class="main-section" id="changelog-header">
     <!--changelog-section-start-->

@@ -54,6 +54,10 @@
   {
     "version": "1.4.0",
     "desc": "Add EnderIO seris and skill restrictions to most of items."
+  },
+  {
+    "version": "1.4.1",
+    "desc": "Remove duplicated ore veins"
   }
 
 ]

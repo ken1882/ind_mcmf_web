@@ -11,6 +11,22 @@ function load_jsons(){
       log.append(document.createElement("br"));
     }
   });
+
+  processJSON("json/commands.json", (dat)=>{
+    dat = JSON.parse(dat);
+    let cmds = $("#command_table");
+    let len = dat.length;
+    for(let i=0;i<len;++i){
+      let ele = document.createElement("tr");
+      let th_cmd = document.createElement("td");
+      let th_desc = document.createElement("td");
+      $(th_cmd).text(`/${dat[i].command}`);
+      $(th_desc).text(`${dat[i].usage}`);
+      ele.appendChild(th_cmd);
+      ele.appendChild(th_desc);
+      cmds.append(ele);
+    }
+  });
 }
 
 function start(){

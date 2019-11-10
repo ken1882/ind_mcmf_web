@@ -72,8 +72,9 @@ h2{
 	white-space: pre;
 }
 h3{
-	color:#222222;
-	font-size:16px;
+	font-family: 'minecraft';
+	color:#d0d0d0;
+	font-size:20px;
 	margin:0 0 5px 0;
 	text-transform:uppercase;
 	font-weight:400;
@@ -88,6 +89,34 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+}
+
+table{
+	border: 2px solid #373737;
+  border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	padding: 10px;
+	margin: 4px 4px 4px 4px;
+	display: inline-block;
+	border-collapse: collapse;
+}
+
+th{
+	color: #d2d2d2;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+td{
+	color: #d2d2d2;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #303030;
 }
 
 /* Header Styles
