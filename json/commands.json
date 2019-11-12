@@ -30,5 +30,13 @@
   {
     "command": "shop stock <amount> <price>",
     "usage": "Stock your chest shop you're looking at with the item in your hand"
+  },
+  {
+    "command": "channel <channel>",
+    "usage": "Change the chat channel, 'g' for global, 'l' for local"
+  },
+  {
+    "command": "ch <channel>",
+    "usage": "Abbr. for /channel"
   }
 ]
