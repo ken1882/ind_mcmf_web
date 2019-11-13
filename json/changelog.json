@@ -66,5 +66,9 @@
   {
     "version": "1.5.1",
     "desc": "Removed DragonMounts2 due to massive lag/crash/error and discounted; added HarvestCraft. Harvest now gives 2xp but harvest&plant now must use tools"
+  },
+  {
+    "version": "1.5.2",
+    "desc": "Sleeping/Fishing/Tree-Chopping no longer spawn mobs, add BetterFPS"
   }
 ]
