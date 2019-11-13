@@ -58,6 +58,13 @@
   {
     "version": "1.4.1",
     "desc": "Remove duplicated ore veins"
+  },
+  {
+    "version": "1.5.0",
+    "desc": "Add immersive railroading and relative dependencies"
+  },
+  {
+    "version": "1.5.1",
+    "desc": "Removed DragonMounts2 due to massive lag/crash/error and discounted; added HarvestCraft. Harvest now gives 2xp but harvest&plant now must use tools"
   }
-
 ]
