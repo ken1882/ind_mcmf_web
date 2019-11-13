@@ -91,7 +91,7 @@ p{
 	margin:0;
 }
 
-table{
+.main-table{
 	border: 2px solid #373737;
   border-right-color: #FFF;
 	border-bottom-color: #FFF;
@@ -101,21 +101,21 @@ table{
 	border-collapse: collapse;
 }
 
-th{
+.main-table th{
 	color: #d2d2d2;
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
 }
 
-td{
+.main-table td{
 	color: #d2d2d2;
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
-tr:nth-child(even) {
+.main-table tr:nth-child(even) {
   background-color: #303030;
 }
 
