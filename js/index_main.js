@@ -6,7 +6,7 @@ function load_jsons(){
     for(let i=len-1;i>=0;--i){
       let info = dat[i];
       let ele = document.createElement("li");
-      $(ele).text(`${info['version']}: ${info['desc']}`)
+      ele.innerHTML = `${info['version']}: ${info['desc']}`;
       log.append(ele);
       log.append(document.createElement("br"));
     }
@@ -20,8 +20,8 @@ function load_jsons(){
       let ele = document.createElement("tr");
       let th_cmd = document.createElement("td");
       let th_desc = document.createElement("td");
-      $(th_cmd).text(`/${dat[i].command}`);
-      $(th_desc).text(`${dat[i].usage}`);
+      th_cmd.innerHTML = `/${dat[i].command}`;
+      th_desc.innerHTML = `${dat[i].usage}`;
       ele.appendChild(th_cmd);
       ele.appendChild(th_desc);
       cmds.append(ele);

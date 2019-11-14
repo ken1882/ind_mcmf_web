@@ -74,5 +74,9 @@
   {
     "version": "1.5.3",
     "desc": "Disable HarvestCraft's fishing pool since it'll overwrite AquaCulture's"
+  },
+  {
+    "version": "1.5.4",
+    "desc": "Removed HarvestCraft due to incompatibility with AquaCulture, add skill restriction to thermal's upgrades and lower ic2 tank's requirement. <span style=\"color:yellow\">Stablized modpack content.</span>"
   }
 ]
