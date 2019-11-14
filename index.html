@@ -130,9 +130,14 @@
     <!--issues-section-start-->
     <div class="container">
       <h2>System Information</h2>
-      <h3><a href="https://www.reddit.com/r/feedthebeast/comments/5jhuk9/modded_mc_and_memory_usage_a_history_with_a/">Recommend JVM arguments</a></h3>
+      <h3>Abuot JVM</h3>
+      <div>
+        Consider using GraalVM to have better perforamce, download link <a href="https://github.com/oracle/graal/releases">here</a>
+      </div>
+      <br>
+      <h3>Recommend JVM arguments</h3>
       <div class="codebox">
-        -XX:+UseG1GC -Xmx8G -Xms8G -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+        -Xmx8G -Xms8G -XX:PermSize=256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -Dfml.readTimeout=300 -d64 -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=100 -XX:TargetSurvivorRatio=70 -XX:-UseGCOverheadLimit -Xnoclassgc -XX:+AggressiveOpts -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=20 -XX:LargePageSizeInBytes=2m -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+UseBiasedLocking -XX:MaxTenuringThreshold=15 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC
       </div>
       <br>
       <div>
