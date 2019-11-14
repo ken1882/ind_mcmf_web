@@ -78,5 +78,9 @@
   {
     "version": "1.5.4",
     "desc": "Removed HarvestCraft due to incompatibility with AquaCulture, add skill restriction to thermal's upgrades and lower ic2 tank's requirement. <span style=\"color:yellow\">Stablized modpack content.</span>"
+  },
+  {
+    "version": "1.5.5",
+    "desc": "Identified AuqalCulture's fishes can only be obtained via the fishing rod from its mod, not HarvestCraft's fault so added it back. Twilight Forest now will spawn fruit trees."
   }
 ]
