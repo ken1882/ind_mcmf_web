@@ -85,6 +85,6 @@
   },
   {
     "version": "1.5.6",
-    "dsec": "Railcraft's tanks now holding 25% more fluid, portable tank from ThermalExpansion holds 75% less fluid."
+    "desc": "Railcraft's tanks now holding 25% more fluid, portable tank from ThermalExpansion holds 75% less fluid."
   }
 ]
