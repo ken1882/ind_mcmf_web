@@ -82,5 +82,9 @@
   {
     "version": "1.5.5",
     "desc": "Identified AuqalCulture's fishes can only be obtained via the fishing rod from its mod, not HarvestCraft's fault so added it back. Twilight Forest now will spawn fruit trees."
+  },
+  {
+    "version": "1.5.6",
+    "dsec": "Railcraft's tanks now holding 25% more fluid, portable tank from ThermalExpansion holds 75% less fluid."
   }
 ]
