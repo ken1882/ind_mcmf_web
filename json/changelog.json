@@ -94,5 +94,9 @@
   {
     "version": "1.5.8",
     "desc": "Activly disabled better survival's spears due to potential crash bugs"
+  },
+  {
+    "version": "1.5.9",
+    "desc": "Most of nether mobs from lycanitesmobs will respect light level now"
   }
 ]
