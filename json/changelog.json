@@ -98,5 +98,9 @@
   {
     "version": "1.5.9",
     "desc": "Most of nether mobs from lycanitesmobs will respect light level now"
+  },
+  {
+    "version": "1.5.10",
+    "desc": "Update mods to latest version"
   }
 ]
