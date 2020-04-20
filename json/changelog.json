@@ -102,5 +102,9 @@
   {
     "version": "1.5.10",
     "desc": "Update mods to latest version, add NotEnoughIDs"
+  },
+  {
+    "version": "1.5.11",
+    "desc": "Update most mods to latest version, add Cooking for blockhead and Tinker's Armor"
   }
 ]
