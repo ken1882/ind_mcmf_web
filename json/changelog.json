@@ -106,5 +106,9 @@
   {
     "version": "1.5.11",
     "desc": "Update most mods to latest version, add Cooking for blockhead, Tinker's Armor and leveling"
+  },
+  {
+    "version": "1.5.12",
+    "desc": "Add torch master, ender storage, flux network, more overlays, extra cells and wireless crafting terminal"
   }
 ]
