@@ -114,5 +114,9 @@
   {
     "version": "1.6.0_pre",
     "desc": "Pre-release of latest modpack, update mods to latest and add several new mods including: FlansMod(very unstable!), Enviromental Tech, Action Additions, Hatchery, AppleSkin, Xnet etc."
+  },
+  {
+    "version": "1.6.0",
+    "desc": "Removed lycanitesmob due to its massively LAG, replaced with Mo's Creatures, Better Animal+. Add Blood Magic. Disabled buggy railcraft multi-block."
   }
 ]
