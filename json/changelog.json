@@ -118,5 +118,13 @@
   {
     "version": "1.6.0",
     "desc": "Removed lycanitesmob due to its massively LAG, replaced with Mo's Creatures, Better Animal+. Add Blood Magic. Disabled buggy railcraft multi-block."
+  },
+  {
+    "version": "1.6.1",
+    "desc": "Different dimension has different difficulty now. Removed ThermalDynamics and disabled some Mekanism pipes due to its LAG. Lowered costs of EnderIO's conduits."
+  },
+  {
+    "version": "1.7.0",
+    "desc": "Removed MoCreatures and CMS due to messing up mob spawn in other dimesions. Added Advanced Rockety, AoA3, Nomadic Tent etc. Also updated mods to latest version."
   }
 ]
