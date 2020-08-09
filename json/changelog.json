@@ -134,5 +134,9 @@
   {
     "version": "1.7.2",
     "desc": "Restored recipes of minecolonies. Lowered diamond gear's skill requirement from 16 to 14."
+  },
+  {
+    "version": "1.7.3",
+    "desc": "Immersive Engineering slags can be crushed to make reinfored concrete now. Enhanced possible power scalability of Wizardry mod"
   }
 ]
