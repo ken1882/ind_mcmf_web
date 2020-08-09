@@ -126,5 +126,13 @@
   {
     "version": "1.7.0",
     "desc": "Removed MoCreatures and CMS due to messing up mob spawn in other dimesions. Added Advanced Rockety, AoA3, Nomadic Tent etc. Also updated mods to latest version."
+  },
+  {
+    "version": "1.7.0",
+    "desc": "Flint tools doesn't affected by quality now. Balanced cost of indlu wall with other tent ingredients."
+  },
+  {
+    "version": "1.7.2",
+    "desc": "Restored recipes of minecolonies. Lowered diamond gear's skill requirement from 16 to 14."
   }
 ]
