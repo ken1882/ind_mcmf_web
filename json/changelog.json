@@ -138,5 +138,9 @@
   {
     "version": "1.7.3",
     "desc": "Immersive Engineering slags can be crushed to make reinfored concrete now. Enhanced possible power scalability of Wizardry mod"
+  },
+  {
+    "version": "1.7.4",
+    "desc": "Rebalanced wizardry mod spells and syringes are stackable now."
   }
 ]
