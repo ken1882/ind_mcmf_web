@@ -142,5 +142,17 @@
   {
     "version": "1.7.4",
     "desc": "Rebalanced wizardry mod spells and syringes are stackable now."
+  },
+  {
+    "version": "1.7.5",
+    "desc": "Fix BattleTower attempts to spawn in Tent Dimension and fix notreepunching knives recipes."
+  },
+  {
+    "version": "1.7.6",
+    "desc": "Farmlands immune to trampling and adjust AE2 early game skill requirements. Infi-Water bucket now can be used in most of recipes that requires water bucket."
+  },
+  {
+    "version": "1.7.7",
+    "desc": "Added custom bibliocraft paintings."
   }
 ]
