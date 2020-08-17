@@ -154,5 +154,13 @@
   {
     "version": "1.7.7",
     "desc": "Added custom bibliocraft paintings."
+  },
+  {
+    "version": "1.7.8",
+    "desc": "Removed infi-waterbucket recipes that will cause the bucket dissappear."
+  },
+  {
+    "version": "1.7.9",
+    "desc": "Reduced most of tech. mod level requirements."
   }
 ]
