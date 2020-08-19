@@ -162,5 +162,13 @@
   {
     "version": "1.7.9",
     "desc": "Reduced most of tech. mod level requirements."
+  },
+  {
+    "version": "1.7.10",
+    "desc": "Add missing recipes for clear glass and quite clear glass"
+  },
+  {
+    "version": "1.7.11",
+    "desc": "Add recipes for hoursepower grinding"
   }
 ]
