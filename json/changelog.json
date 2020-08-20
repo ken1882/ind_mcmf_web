@@ -170,5 +170,9 @@
   {
     "version": "1.7.11",
     "desc": "Add recipes for hoursepower grinding"
+  },
+  {
+    "version": "1.7.12",
+    "desc": "Add railcraft tweaker adn add alternative recipe for H.S. track; Removed toolbelt skill requirement to prevent a bug that will unequip when back from the end; Added fuels for immersive enginnering's blast furnace."
   }
 ]
