@@ -174,5 +174,9 @@
   {
     "version": "1.7.12",
     "desc": "Add railcraft tweaker adn add alternative recipe for H.S. track; Removed toolbelt skill requirement to prevent a bug that will unequip when back from the end; Added fuels for immersive enginnering's blast furnace."
+  },
+  {
+    "version": "1.7.13",
+    "desc": "Fix railcraft's H.S. recipe gone and disabled some buggy blocks. Added missing recipe of waystone, reauth mod and ic2 tweaker mod. Gasoline can be used as fuel in the combustyon."
   }
 ]
