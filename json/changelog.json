@@ -180,7 +180,11 @@
     "desc": "Fix railcraft's H.S. recipe gone and disabled some buggy blocks. Added missing recipe of waystone, reauth mod and ic2 tweaker mod. Gasoline can be used as fuel in the combustyon."
   },
   {
-    "version": "1,7,14",
+    "version": "1.7.14",
     "desc": "Balanced deepmoblearning, baguette dough recipe. Added redstone vein and mana reservoir."
+  },
+  {
+    "version": "1.7.15",
+    "desc": "Added missing crusher recipe for crystal (and dusts). Most of baubles can be reforged with relevent material (see the config)."
   }
 ]
