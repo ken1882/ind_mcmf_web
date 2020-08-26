@@ -186,5 +186,9 @@
   {
     "version": "1.7.15",
     "desc": "Added missing crusher recipe for crystal (and dusts). Most of baubles can be reforged with relevent material (see the config)."
+  },
+  {
+    "version": "1.7.16",
+    "desc": "Removed skill requirements for some util and decoration blocks. Health cap up to 100. Fixed bauble reforgind bugs. Storage drawers capacity upgrade 8x powerful but higher costs. Inf. booster cards crafting recipe yields 8 times more."
   }
 ]
