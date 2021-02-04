@@ -1,0 +1,194 @@
+[
+  {
+    "version": "1.0.0",
+    "desc": "首次公佈"
+  },
+  {
+    "version": "1.1.0",
+    "desc": "新增合成配方"
+  },
+  {
+    "version": "1.2.0",
+    "desc": "新增物品等級限制與增加遊戲難度的模組"
+  },
+  {
+    "version": "1.2.1",
+    "desc": "更新物品等級限制"
+  },
+  {
+    "version": "1.2.2",
+    "desc": "穩定版本公佈"
+  },
+  {
+    "version": "1.2.3",
+    "desc": "新增 progressive boss 模組讓原本魔王難度提高"
+  },
+  {
+    "version": "1.2.4",
+    "desc": "移除體溫設定(否則死太快)"
+  },
+  {
+    "version": "1.2.5",
+    "desc": "恐怖怪物模組中稀有怪物不再顯示頭目血條"
+  },
+  {
+    "version": "1.2.6",
+    "desc": "恐怖怪物模組不再生成於光亮區域, 新增硫磺粉燒成火藥的配方"
+  },
+  {
+    "version": "1.2.7",
+    "desc": "移除 AquaCulture 的漁獲重量, 方便自動釣魚機的儲存"
+  },
+  {
+    "version": "1.2.8",
+    "desc": "移除怪物生成格的生怪限制, 現可產出近無限的怪物"
+  },
+  {
+    "version": "1.3.0",
+    "desc": "新增模組"
+  },
+  {
+    "version": "1.3.1",
+    "desc": "新增新模組物品等級限制"
+  },
+  {
+    "version": "1.4.0",
+    "desc": "新增 EnderIO 等模組與物品等級限制"
+  },
+  {
+    "version": "1.4.1",
+    "desc": "移除不同模組所產出的相同名稱礦脈"
+  },
+  {
+    "version": "1.5.0",
+    "desc": "新增 immersive railroading"
+  },
+  {
+    "version": "1.5.1",
+    "desc": "移除 DragonMounts2 以解決閃退和LAG問題; 新增 HarvestCraft"
+  },
+  {
+    "version": "1.5.2",
+    "desc": "睡覺/釣魚/砍樹不再使恐怖怪物模組生成怪物; 新增 BetterFPS"
+  },
+  {
+    "version": "1.5.3",
+    "desc": "移除 HarvestCraft 的漁獲以避免和 AquaCulture 衝突"
+  },
+  {
+    "version": "1.5.4",
+    "desc": "因和 AquaCulture不相容所以移除 HarvestCraft, Thermal 系列升級新增等級限制, 降低 IC2 水箱等級限制"
+  },
+  {
+    "version": "1.5.5",
+    "desc": "因確認 AuqalCulture 的漁獲只能有該模組的魚竿釣到, 而非 HarvestCraft 兼容問題所以把後者加回. 暮光森林現可產生果樹."
+  },
+  {
+    "version": "1.5.6",
+    "desc": "Railcraft's tanks now holding 25% more fluid, portable tank from ThermalExpansion holds 75% less fluid."
+  },
+  {
+    "version": "1.5.7",
+    "desc": "移除 BetterFPS (會使現代戰爭的槍支無法射擊). 可右鍵收成農作物並重新種植. 可飲用雨水."
+  },
+  {
+    "version": "1.5.8",
+    "desc": "移除 better survival 長槍, 否則若持有可能閃退"
+  },
+  {
+    "version": "1.5.9",
+    "desc": "地獄生成的恐怖怪物不再生成於光源區域"
+  },
+  {
+    "version": "1.5.10",
+    "desc": "更新模組版本"
+  },
+  {
+    "version": "1.5.11",
+    "desc": "更新模組版本, 新增 Cooking for blockhead, Tinker's Armor 和 leveling"
+  },
+  {
+    "version": "1.5.12",
+    "desc": "新增一些生活改善模組"
+  },
+  {
+    "version": "1.6.0_pre",
+    "desc": "新增模組"
+  },
+  {
+    "version": "1.6.0",
+    "desc": "移除超當的恐怖怪物模組, 改為 Mo's Creatures 和 Better Animal+. 新增 Blood Magic. 移除問題超多的 railcraft 的多格建物."
+  },
+  {
+    "version": "1.6.1",
+    "desc": "不同世界現有不同難度等級. 因和部分模組不相容而閃退所以移除 ThermalDynamics 和部分 Mekanism 的管線. 製造 EnderIO 管線成本大幅下降."
+  },
+  {
+    "version": "1.7.0",
+    "desc": "因影響其他世界怪物生成而移除 MoCreatures 和 CMS. 新增 Advanced Rockety, AoA3, Nomadic Tent 等模組."
+  },
+  {
+    "version": "1.7.1",
+    "desc": "礫石工具不受品質影響. 平衡帳篷模組所需的材料."
+  },
+  {
+    "version": "1.7.2",
+    "desc": "Restored recipes of minecolonies. Lowered diamond gear's skill requirement from 16 to 14."
+  },
+  {
+    "version": "1.7.3",
+    "desc": "Immersive Engineering slags can be crushed to make reinfored concrete now. Enhanced possible power scalability of Wizardry mod"
+  },
+  {
+    "version": "1.7.4",
+    "desc": "Rebalanced wizardry mod spells and syringes are stackable now."
+  },
+  {
+    "version": "1.7.5",
+    "desc": "修正 BattleTower 在帳篷生成的問題和修正 notreepunching 小刀配方."
+  },
+  {
+    "version": "1.7.6",
+    "desc": "農地不受踩踏影響, 修正 AE2 早期工具技能限制"
+  },
+  {
+    "version": "1.7.7",
+    "desc": "新增 bibliocraft 客製化畫像."
+  },
+  {
+    "version": "1.7.9",
+    "desc": "降低大部分科技模組的等級限制"
+  },
+  {
+    "version": "1.7.10",
+    "desc": "新增模組玻璃的配方"
+  },
+  {
+    "version": "1.7.11",
+    "desc": "馬力模組的研磨器現可磨碎大部分其他模組物品"
+  },
+  {
+    "version": "1.7.12",
+    "desc": "新增 railcraft tweaker 與高速鐵軌配方; 移除工具腰帶的等級限制; 新增 immersive enginnering 的高爐燃料."
+  },
+  {
+    "version": "1.7.13",
+    "desc": "修正 railcraft 高速鐵路配方和移除造成閃退的方塊與新增模組"
+  },
+  {
+    "version": "1.7.14",
+    "desc": "平衡 deepmoblearning, 長棍麪糰配方. 新增紅石礦井與魔力泉井."
+  },
+  {
+    "version": "1.7.15",
+    "desc": "Immersive Engineering 的粉碎機可粉碎大部分其他模組的物品. 飾品品質現可使用 Reforing Station 和與其飾品相關材料來刷品質."
+  },
+  {
+    "version": "1.7.16",
+    "desc": "移除裝飾方塊的等級限制. 生命上限提高爲 100. Storage drawers 現可儲存8倍容量但成本更高. 無線製造終端所使用的 booster card 配方產出8倍."
+  },
+  {
+    "version": "1.9.0",
+    "desc": "翻新絕大部分模組內容, 因此需重新下載完整模組包"
+  }
+]

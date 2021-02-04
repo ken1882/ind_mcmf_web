@@ -1,0 +1,42 @@
+[
+  {
+    "command": "job",
+    "usage": "顯示職業資訊 (經濟插件)"
+  },
+  {
+    "command": "job set <職業名稱>",
+    "usage": "設定職業爲 <職業名稱>"
+  },
+  {
+    "command": "balance",
+    "usage": "顯示戶頭餘額"
+  },
+  {
+    "command": "bal",
+    "usage": "/balance 的縮寫"
+  },
+  {
+    "command": "job toggle",
+    "usage": "開關職業通知"
+  },
+  {
+    "command": "pay <玩家名稱> <數量>",
+    "usage": "交付給 <玩家名稱> <數量> 的錢"
+  },
+  {
+    "command": "shop buy",
+    "usage": "設定當前注視的單個箱子爲個人商店"
+  },
+  {
+    "command": "shop stock <數量> <價格>",
+    "usage": "將主手物品 <數量> 個上架到當前注視的個人商店"
+  },
+  {
+    "command": "channel <channel>",
+    "usage": "切換聊天頻道 'g' 爲世界頻道, 'l' 爲區域頻道"
+  },
+  {
+    "command": "ch <channel>",
+    "usage": "/channel 的縮寫"
+  }
+]

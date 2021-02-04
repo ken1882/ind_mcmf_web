@@ -89,7 +89,7 @@
   },
   {
     "version": "1.5.7",
-    "desc": "Removed BetterFPS due to incompatible with ModernWarfare (guns unable to shoot). Right-click simple harvest is back and hopefully will gives XP. Now allow drinking from rail."
+    "desc": "Removed BetterFPS due to incompatible with ModernWarfare (guns unable to shoot). Right-click simple harvest is back and hopefully will gives XP. Now allow drinking from rain."
   },
   {
     "version": "1.5.8",
@@ -190,5 +190,9 @@
   {
     "version": "1.7.16",
     "desc": "Removed skill requirements for some util and decoration blocks. Health cap up to 100. Fixed bauble reforgind bugs. Storage drawers capacity upgrade 8x powerful but higher costs. Inf. booster cards crafting recipe yields 8 times more."
+  },
+  {
+    "version": "1.9.0",
+    "desc": "Most mods are updated and upgraded thus need to re-download the whole modpack."
   }
 ]

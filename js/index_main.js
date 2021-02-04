@@ -1,5 +1,7 @@
 function load_jsons(){
-  processJSON("json/changelog.json", (dat)=>{
+  let lan = window.language; // defined in index.html
+  if(!lan){ lan = "enus"; }
+  processJSON(`json/changelog-${lan}.json`, (dat)=>{
     dat = JSON.parse(dat);
     let log = $("#changelog");
     let len = dat.length;
@@ -12,7 +14,7 @@ function load_jsons(){
     }
   });
 
-  processJSON("json/commands.json", (dat)=>{
+  processJSON(`json/commands-${lan}.json`, (dat)=>{
     dat = JSON.parse(dat);
     let cmds = $("#command_table");
     let len = dat.length;

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, maximum-scale=1">
   <title>IND Modern Fantasy Minecraft Page</title>
   <link rel="icon" type="image/x-icon" href="https://ntouind.tw/ind/favicon-red-32.ico">
+  <script>window.language="zhtw";</script>
   <script type="text/javascript" src="js/lib/jquery.1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/lib/bootstrap.js"></script>
 	<script type="text/javascript" src="js/lib/jquery-scrolltofixed.js"></script>
@@ -53,16 +54,16 @@
 		<div class="container">
 			<ul class="main-nav">
         <!-- <li><a href="#header">Home</a></li> -->
-        <li><a href="#rules">Server Rules</a></li>
-        <li><a href="#issues">Known issues</a></li>
-        <li><a href="#infos">System Info</a></li>
+        <li><a href="#rules">規則</a></li>
+        <li><a href="#issues">已知問題</a></li>
+        <li><a href="#infos">系統資訊</a></li>
         <li class="small-logo"><a href="#header">
           <img src="ind/INDmark2-2-white.png" alt=""></a>
         </li>
-        <li><a href="#changelog-header">Change Log</a></li>
-        <li><a href="#modpacklink">Download ModPack</a></li>
+        <li><a href="#changelog-header">更新列表</a></li>
+        <li><a href="#modpacklink">模組包下載</a></li>
         <!-- <li><a href="#keybindings">Keybinds</a></li> -->
-        <li><a href="#modlist">Mod List</a></li>
+        <li><a href="https://comsv.ind.ntou.edu.tw/minecraft" target="_blank">動態地圖</a></li>
       </ul>
 			<a class="res-nav_click" id="res-nav_bar" onclick="responsive_menu()">
           <i class="fa fa-bars"></i>
@@ -78,21 +79,21 @@
     </div>
     <br>
     <div class="subtitle">
-      A custom modpack server -- where fantasy meets reality<br>
+      自製模組包伺服器 -- 科技,魔法,冒險,建築...一次掌握<br>
       <br>
-      @hosted by NTOU:IND
+      @由 NTOU:IND 營運
     </div>
   </section>
 
   <section class="main-section" id="rules">
       <!--rules-section-start-->
       <div class="container">
-        <h2>Rules</h2>
+        <h2>伺服器規定</h2>
         <ul class="textarea">
-          <li>No griefing, who violated will be banned permanently</li>
-          <li>Do not break other's tombstone item unless permitted</li>
-          <li>Do not steal other's property</li>
-          <li>Respect each other, be nice and stay cool</li>
+          <li>嚴禁破壞,違者黑單,無討論空間</li>
+          <li>禁止偷搶</li>
+          <li>除非允許,否則禁止破壞他人墳墓</li>
+          <li>互相尊重</li>
         </ul>
       </div>
   </section>
@@ -101,15 +102,14 @@
   <section class="main-section" id="issues">
     <!--issues-section-start-->
     <div class="container">
-      <h2>Known issue</h2>
-      <p class="subtitle">If you're encountering an issue, please report to my discord (@Compeador#9999)</p>
+      <h2>已知問題</h2>
+      <p class="subtitle">如有遇到問題, 請在 Discord 回報管理員 (@Compeador#9999)</p>
       <br><br>
       <ul class="textarea" style="padding-left:8%">
-        <li>In Advanced Crafting Table, open JEI show recipe/usage window will make the crafting button not working</li>
-        <li>If railcraft's multi-block strcture built cross-chunk, it'll sime times load improperly and interact it will mess player's inventory. (Blocks has been disabled onc config)</li>
-        <li>Recurrent Complex's strcture will be broken inside a newly generated village (active sponge bug)</li>
-        <li>If Modern Warfare's guns are held in off-hand, press mouse-right button (aim-down sight) will cause the gun replaced by the item in main-hand</li>
-        <li>Modern Warfare's aim down sight will kinda broken if shader enabled</li>
+        <li>若 Railcraft 的多方塊建物橫跨多個 Chunk, 點開會讓玩家物品消失(已於預設設定中移除)</li>
+        <li>Recurrent Complex 的部分建築會生成不完全或錯置</li>
+        <li>若把現代戰爭的槍支拿在副手並按下滑鼠右鍵(瞄準), 會讓武器消失</li>
+        <li>現代戰爭的瞄準鏡會在光影模組啓動下會過度曝光</li>
       </ul><br>
       <br>
       <div>
@@ -119,8 +119,8 @@
         4.<br><img src="https://i.imgur.com/Tw3QNn9.png" class="issue_img"><br><br>
         <br>
         <p>
-          1, 2 : No shader, normal and aim-down sight<br>
-          3, 4 : With shader (example is using sildur's)
+          1, 2 : 無光影模組下使用瞄準鏡<br>
+          3, 4 : 光影模組下使用瞄準鏡(範例使用 Sildur 光影)
         </p>
       </div>
     </div>
@@ -130,26 +130,26 @@
   <section class="main-section" id="infos">
     <!--issues-section-start-->
     <div class="container">
-      <h2>System Information</h2>
-      <h3>Abuot JVM</h3>
+      <h2>系統資訊</h2>
+      <h3>關於 Java 虛擬機 (JVM)</h3>
       <div>
-        Consider using GraalVM to have better perforamce, download link <a href="https://github.com/oracle/graal/releases">here</a>
+        使用 GraalVM 的運行效能更佳, 下載連結 <a href="https://github.com/oracle/graal/releases">點此</a>
       </div>
       <br>
-      <h3>Recommend JVM arguments</h3>
+      <h3>推薦 JVM 參數</h3>
       <div class="codebox">
-        -Xmx8G -Xms8G -XX:PermSize=256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -Dfml.readTimeout=300 -d64 -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=100 -XX:TargetSurvivorRatio=70 -XX:-UseGCOverheadLimit -Xnoclassgc -XX:+AggressiveOpts -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=20 -XX:LargePageSizeInBytes=2m -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+UseBiasedLocking -XX:MaxTenuringThreshold=15 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC
+        -Dfml.ignorePatchDiscrepancies=true -Dfml.readTimeout=300 -d64 -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=100 -XX:TargetSurvivorRatio=70 -XX:-UseGCOverheadLimit -Xnoclassgc -XX:+AggressiveOpts -XX:+CMSClassUnloadingEnabled -XX:ParallelGCThreads=4 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=20 -XX:LargePageSizeInBytes=2m -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+UseBiasedLocking -XX:MaxTenuringThreshold=15 -XX:+UseConcMarkSweepGC -XX:+UseParNewGC
       </div>
       <br>
       <div>
         <table class="main-table">
           <tr>
-            <th colspan="4">Hardware Recommendation</th>
+            <th colspan="4">硬體配置</th>
           </tr>
           <tr>
             <th></th>
-            <th>Base</th>
-            <th>Advanced</th>
+            <th>基本</th>
+            <th>進階</th>
           </tr>
           <tr>
             <th>CPU</th>
@@ -162,21 +162,17 @@
             <td>Nvidia GTX 1060</td>
           </tr>
           <tr>
-            <th>Memory*</th>
+            <th>記憶體</th>
             <td>8G DDR3</td>
             <td>16G DDR4</td>
           </tr>
           <tr>
-            <th>HDD</th>
-            <td colspan="2">500MB+</td>
+            <th>可用硬碟空間</th>
+            <td colspan="2">2GB+</td>
           </tr>
         </table>
       </div>
       <br>
-      <div>
-        Base: Able to play without shader<br>
-        Advanced: Able to play with shader enabled<br>
-      </div>
     </div>
   </section>
   <!--info-section-end-->
@@ -184,12 +180,12 @@
   <section class="main-section" id="commands">
     <!--command-section-start-->
     <div class="container">
-      <h2>Command Information</h2>
+      <h2>指令資訊</h2>
       <div>
         <table id="command_table" class="main-table">
           <tr>
-            <th>Command</th>
-            <th>Usage</th>
+            <th>指令</th>
+            <th>用途</th>
           </tr>
         </table>
       </div>
@@ -199,7 +195,7 @@
 
   <section class="main-section" id="changelog-header">
     <!--changelog-section-start-->
-    <h2>Change Log</h2>
+    <h2>更新列表</h2>
     <div class="changelog"><ul id="changelog">
       
     </ul></div>
@@ -209,17 +205,18 @@
   <section class="main-section" id="modpacklink">
       <!--download-section-start-->
       <div class="container">
-        <h2>Download  Modpack</h2>
+        <h2>模組包下載</h2>
         <p>
           <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Google-Drive-icon.png" width=32px style="padding:4px">
           <a href="https://drive.google.com/open?id=1s2sviktIm0mxMLSA2AQJtz_KSFjYhSFe" target="_blank">Goole Drive Download</a>
         </p>
         <br>
         <h4>
-          Tired update manually?<br>
-          Download the <a href="https://github.com/ken1882/minecraft-modpack-updater#minecraft-modpack-updater" target="_blank">Modpack Updater</a>!<br>
+          不想要每次都手動更新嗎?<br>
+          點此下載 <a href="https://github.com/ken1882/minecraft-modpack-updater#minecraft-modpack-updater" target="_blank">模組包更新器</a><br>
+          (可能為被誤認為病毒)
           <br>
-          ※Some minor changes will no longer upload whole pack to google drive and will be in the 'updates' instead, so it's strongly recommended to using the updater.
+          ※非重大更新將不會上傳完整最新版本, 而是在雲端硬碟的 Update 資料夾中，因此強烈建議使用更新器
         </h4>
       </div>
   </section>
@@ -233,12 +230,11 @@
   </section>
   -->
   <!--keybindings-section-end-->
-
   <section class="main-section" id="modlist">
       <!--download-section-start-->
       <div class="container">
-        <h2>Mod List</h2>
-        (Total Mods: 290)
+        <h2>模組列表</h2>
+        (共有 290 個模組)
         <br><br>
         <div>
           <ul style="display: inline-block; text-align: left;">
@@ -251,12 +247,14 @@
             <li>Adhooks</li>
             <li>Advanced-fishing</li>
             <li>Advanced-solar-panels</li>
-            <li>Advancedrocketry</li>
-            <li>Ae2stuff</li>
-            <li>Ae2wtlib</li>
+            <li>AdvancedRocketry</li>
+            <li>AdsolarPatch</li>
+            <li>AE2Stuff</li>
+            <li>AE2Wtlib</li>
+            <li>Aether</li>
             <li>Alcatrazcore</li>
             <li>Anvilpatch</li>
-            <li>Aoa3</li>
+            <li>AoA3</li>
             <li>Applecore</li>
             <li>Appleskin</li>
             <li>Appliedenergistics2</li>
@@ -277,6 +275,7 @@
             <li>Bettercombat</li>
             <li>Bibliocraft</li>
             <li>Biggercraftingtables</li>
+            <li>BiomesOPlenty</li>
             <li>Blockcraftery</li>
             <li>Bloodmagic</li>
             <li>Bloodmoon</li>
@@ -317,6 +316,7 @@
             <li>Decocraft</li>
             <li>Deepmoblearning</li>
             <li>Defiledlands</li>
+            <li>DimensionalEdibles</li>
             <li>Discordintegration</li>
             <li>Disenchanter</li>
             <li>Doggytalents</li>
@@ -326,6 +326,7 @@
             <li>Endercore</li>
             <li>Enderio</li>
             <li>Enderstorage</li>
+            <li>EnderTweaker</li>
             <li>Enderutilities</li>
             <li>Engineers_doors</li>
             <li>Environmentaltech</li>
@@ -346,9 +347,10 @@
             <li>Forgeendertech</li>
             <li>Forgelin</li>
             <li>Forgemultipart</li>
-            <li>Foxcore-sponge</li>
+            <li>Foxcore-client</li>
             <li>Friendlyfire</li>
             <li>Future-mc</li>
+            <li>GaiaDimension</li>
             <li>Gasconduits</li>
             <li>Globalgamerules</li>
             <li>Good-nights-sleep</li>
@@ -361,6 +363,7 @@
             <li>Huntingdimension</li>
             <li>Hwyla</li>
             <li>Iceandfire</li>
+            <li>IC2Tweaker</li>
             <li>Igw-mod</li>
             <li>Immersivecables</li>
             <li>Immersiveengineering</li>
@@ -384,6 +387,9 @@
             <li>Itemphysic_full</li>
             <li>Ivtoolkit</li>
             <li>Jei</li>
+            <li>JeiBees</li>
+            <li>JeiIntegration</li>
+            <li>JustEnoughIds</li>
             <li>Kleeslabs</li>
             <li>Laggoggles</li>
             <li>Level-up!-2</li>
@@ -410,13 +416,12 @@
             <li>Mousetweaks</li>
             <li>Movillages</li>
             <li>Mtlib</li>
-            <li>Mw</li>
+            <li>ModernWarfare</li>
             <li>Mysticallib</li>
             <li>Neat</li>
             <li>Nodami</li>
             <li>Nomadictents</li>
             <li>Norecipebook</li>
-            <li>Notenoughids</li>
             <li>Notenoughpets</li>
             <li>Notreepunching</li>
             <li>Nuclearcraft</li>
@@ -431,8 +436,8 @@
             <li>Pickletweaks</li>
             <li>Pipemaster</li>
             <li>Placebo</li>
-            <li>Playerplates</li>
-            <li>Playerrevive</li>
+            <li>PlayerPlates</li>
+            <li>PlayerRevive</li>
             <li>Potioncore</li>
             <li>Potioncraft</li>
             <li>Potionfingers</li>
@@ -441,8 +446,10 @@
             <li>Ptrlib</li>
             <li>Qualitytools</li>
             <li>Railcraft</li>
+            <li>RailcrftTweaker</li>
             <li>Randompatches</li>
             <li>Realbench</li>
+            <li>ReAuth</li>
             <li>Recurrentcomplex</li>
             <li>Redstoneflux</li>
             <li>Reskillable</li>
@@ -474,7 +481,7 @@
             <li>Tesla-core-lib</li>
             <li>Thaumcraft</li>
             <li>Thaumicenergistics</li>
-            <li>Thaumicjei</li>
+            <li>ThaumicJei</li>
             <li>Theaurorian</li>
             <li>Thebetweenlands</li>
             <li>Thermalexpansion</li>
@@ -496,11 +503,11 @@
             <li>Traverse</li>
             <li>Treechopper</li>
             <li>Trinkets-and-baubles</li>
-            <li>Tropicraft</li>
             <li>Trumpetskeleton</li>
             <li>Tumbleweed</li>
             <li>Twilightforest</li>
             <li>Unidict</li>
+            <li>UniversalModCore</li>
             <li>Uppers</li>
             <li>Valkyrielib</li>
             <li>Vanillafix</li>
@@ -526,6 +533,6 @@
       </div>
   </section>
   <!--download-section-end-->
-  <div>Server IP: comsv.ind.ntou.edu.tw</div>
+  <div>伺服器 IP: comsv.ind.ntou.edu.tw</div>
 </body>
 </html>
